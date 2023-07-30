@@ -1,0 +1,62 @@
+body {
+    margin: 20px;
+    background-color: whitesmoke;
+}   
+
+img{
+    float:right;
+    padding: 10px;
+    background: whitesmoke;
+    margin: -10px;  
+    width: 50%;
+    max-width: 150px;
+    transform: rotate(5deg);
+    border: medium outset blueviolet ;
+}
+
+div#curriculum h1 {
+    padding: 0 0 16px 0;
+    font-size: 45px;
+    font-weight: bold;
+    letter-spacing: -1px;
+    border-bottom: 3px solid blueviolet ;    
+    line-height: 50px;
+}
+
+h2 {
+    color: blueviolet;
+    text-decoration: underline;  
+}
+
+div#curriculum p {    
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    line-height: 30px;
+    color: black;
+    
+}
+div#curriculum a{
+    color: blueviolet;     
+}
+div#curriculum p.datos_basicos {
+    text-align: left;
+    line-height: 7px;
+  }
+
+.datos_basicos span {
+    color: blueviolet;
+    text-decoration: none;    
+}
+
+
+div#intereses ul{
+    list-style:none;    
+}
+
+div#intereses li::before{
+content:"-";
+margin-right:8px;
+}
+
+div#cursos ul{
+    text-decoration: none; 
+}
