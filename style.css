@@ -1,8 +1,10 @@
+/* Defino el color de fondo y los margenes de todo el archivo*/
 body {
     margin: 20px;
     background-color: whitesmoke;
 }   
-
+/* Reborde, posicion e inclinacion de la imagen, la idea era q el reborde de la imagen 
+no se despegara de las la linea debajo del encabezado*/
 img{
     float:right;
     padding: 10px;
@@ -13,7 +15,7 @@ img{
     transform: rotate(5deg);
     border: medium outset blueviolet ;
 }
-
+/* Formato del texto del encabezado */
 div#curriculum h1 {
     padding: 0 0 16px 0;
     font-size: 45px;
@@ -22,32 +24,34 @@ div#curriculum h1 {
     border-bottom: 3px solid blueviolet ;    
     line-height: 50px;
 }
-
+/* Formato del lus subtitulos "Cursos Realizados" e "Intereses" */
 h2 {
     color: blueviolet;
     text-decoration: underline;  
 }
-
+/* Formato del texto de los parrafos del archivo (objetivo y datos basicos) */
 div#curriculum p {    
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     line-height: 30px;
     color: black;
     
 }
+/* Formato del link a GitHub */
 div#curriculum a{
     color: blueviolet;     
 }
+/* Posicion e interlineado de los parrafos solo de datos basicos */
 div#curriculum p.datos_basicos {
     text-align: left;
     line-height: 7px;
   }
-
+/* Color del texto de los datos basicos */
 .datos_basicos span {
-    color: blueviolet;
-    text-decoration: none;    
+    color: blueviolet;      
 }
 
-
+/* Esta ultima parte es para eliminar los circulos de 
+la lista de intereses y reemplazarlos por guiones*/
 div#intereses ul{
     list-style:none;    
 }
